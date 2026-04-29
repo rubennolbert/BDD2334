@@ -4,4 +4,6 @@ libros = [
   {"titulo": "La Sombra del Viento", "autor": "Carlos Ruiz Zafón"}
 ];
 
+db.libros.drop();
 db.libros.insertMany(libros);
+//////
