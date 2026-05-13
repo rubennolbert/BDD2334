@@ -22,7 +22,7 @@ libros = [
 db.libros.drop();
 db.libros.insertMany(libros);
 
-// console.log(libros);
+console.log(libros);
 // print(db.libros.find().count());
 // db.libros-delteMany({});
 // print(db.libros.find().count());
